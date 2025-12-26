@@ -1,0 +1,12 @@
+# WebSocket配置（和Postman完全一致）
+WS_URL = "ws://192.168.50.163:8083/drone"  # Postman连接的地址
+RECONNECT_INTERVAL = 3
+DISPLAY_WINDOW = 40
+UPDATE_INTERVAL = 200
+SEND_TRIGGER_INTERVAL = 1  # 每1秒发送一次触发消息（和Postman频率一致）
+
+# 无人机区域配置
+PROTECT_ZONE = 10000
+KILL_ZONE = 1000
+DRONE_SPEED_CIVIL = 20
+DRONE_SPEED_MILITARY = 290
